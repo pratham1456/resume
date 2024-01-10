@@ -1,0 +1,181 @@
+body{
+    margin: 0%;
+}
+.intro{
+    text-align: center;
+    background-color: #E0F4FF;
+    display: flex;
+    flex-direction: column;
+}
+.d1{
+    max-width:100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+body > div.intro > h1{
+    color: #39A7FF;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+body > div.intro > p{
+    color: #1640D6;
+    font-family: 'Alex Brush', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+}
+
+.d2{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.d3{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:center;
+    border-radius: 20%;
+}
+.self{
+    text-align: center;
+    margin: 50px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+.pic{
+    max-width: 100%;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+body > div.self > div > h1{
+    font-family: 'Open Sans', sans-serif;   
+    color: #427D9D;
+    margin-bottom: 0;
+}
+body > div.self > div > p{
+    padding-bottom: 50px;
+    width: 25rem;
+    font-family: 'Open Sans', sans-serif;  
+    color: #427D9D;
+}
+.skills{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skills > h1{
+    font-family: 'Open Sans', sans-serif bold;   
+    color: #427D9D;
+    margin-bottom: 50px;
+}
+body > div.skills > div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 250px 250px;
+    column-gap: 150px;
+    row-gap: 20px;
+}
+body > div.skills > div > div > div.programming > p:nth-child(1){
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #427D9D;  
+}
+body > div.skills > div > div > div.programming > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: #427D9D;   
+}
+body > div.skills > div > div > div.anime > p:nth-child(1){
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #427D9D;    
+}
+body > div.skills > div > div > div.anime > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: #427D9D;  
+}
+.contact{
+    text-align: center;
+}
+body > div.contact > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body > div.contact > div > h1{
+    margin-bottom: 0;
+}
+body > div.contact > div > h1{
+    font-family: 'Open Sans', sans-serif bold;   
+    color: #427D9D; 
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+body > div.contact > div > p:nth-child(2){
+    font-family: 'Open Sans', sans-serif;
+    color: #427D9D; 
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+body > div.contact > div > p:nth-child(3){ 
+    width: 40%;
+    color: #427D9D;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+body > div.contact > div > button{
+    border: 0;
+    border-radius: 90px;
+    background-color: #427D9D;
+    margin-top: 10px
+}
+body > div.contact > div > button > a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+.social{
+    background-color: #E0F4FF;
+    text-align: center;
+    font-size: large;
+    padding-bottom: 80px;
+}
+body > div.social > hr{
+    margin-top: 20px;
+}
+.btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.bt{
+    margin-top: 30px;
+    border: 0;
+    background-color: transparent;
+    
+}
+.bt > a{
+    text-decoration: none;
+    font-size: medium;
+    color: #427D9D;
+}
+body > div.social > p{
+    font-size: small;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
